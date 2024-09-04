@@ -8,17 +8,18 @@
 - MongoDB
 
 ## Requisitos necessários para rodar o projeto
-- Python 3.
+- Python versão 3.12. Documentação: https://docs.python.org/3/
+- Java versão 8.0. Documentação: https://docs.oracle.com/en/java/
 - Bibliotecas do python : pandas, numpy, faker, random e mplfinance.
-- MongoDB.
-- Apache Sparky.
-- Conector spark-mongodb.
+- MongoDB versão 7.0. Documentação: https://www.mongodb.com/pt-br/docs/manual/
+- Apache Sparky versão 3.0. Documentação: https://spark.apache.org/docs/latest/
+- Conector spark-mongodb : org.mongodb.spark:mongo-spark-connector_2.12:3.0.1.
 
 ## Ambiente em nuvem
 ### É possivel executar o projeto utilizando ambiente em nuvem databricks para o apache spark e atlas para o mongodb
-- Databricks :
+- Databricks : https://docs.databricks.com/en/index.html
    - Necessário instalar no notebook o conector org.mongodb.spark:mongo-spark-connector_2.12:3.0.1
-- Atlas :
+- Atlas : https://www.mongodb.com/pt-br/docs/atlas/
    - Necessário liberar acesso ao ip utilizado no databricks ou a qualquer ip que tente acessar.
    - Obter string de conexão para acessar o banco de dados.
 ## Geração dos dados
