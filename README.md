@@ -9,7 +9,7 @@
 
 ## Requisitos necessários para rodar o projeto
 - Python 3.
-- Bibliotecas do python : pandas, numpy, faker e random.
+- Bibliotecas do python : pandas, numpy, faker, random e mplfinance.
 - MongoDB.
 - Apache Sparky.
 - Conector spark-mongodb.
